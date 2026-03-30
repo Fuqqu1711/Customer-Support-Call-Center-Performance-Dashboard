@@ -1,77 +1,82 @@
-# 📞 Customer Support & Call Center Performance Dashboard
+# 📞 Call Center Performance Analysis
 
-## 📊 Project Description
-This Power BI project presents an end-to-end **Customer Support & Call Center Performance Analysis Dashboard**, designed to help operations and business teams monitor service efficiency, customer experience, and agent performance. The dashboard focuses on key call center KPIs such as call handling, resolution effectiveness, customer satisfaction, and workload distribution.
-
-Built with a business-first approach, this dashboard enables stakeholders to identify operational bottlenecks, optimize staffing, and improve overall customer service quality.
+## 📌 Problem Statement  
+The business lacked visibility into call center performance, including call handling efficiency, customer wait times, and service quality. There was a need to identify operational bottlenecks affecting customer experience and optimize resource allocation.
 
 ---
 
-## 📌 Key Business Objectives
-- Monitor call handling efficiency and service levels  
-- Identify call abandonment and response delays  
-- Analyze customer satisfaction trends  
-- Track resolution performance across topics and channels  
-- Support data-driven workforce and process decisions  
+## 🎯 Business Objective  
+- Analyze call handling efficiency and service levels  
+- Identify factors contributing to abandoned calls  
+- Monitor average speed of answer and call duration  
+- Evaluate customer satisfaction trends  
+- Optimize staffing and workload distribution  
 
 ---
 
-## 📈 Key Metrics & Insights
-- **Total Calls Handled**
-- **Answered Calls vs Abandoned Calls**
-- **Average Call Duration (mm:ss)**
-- **Average Speed of Answer (ASA)**
-- **Resolution Rate (%)**
-- **Customer Satisfaction Score (CSAT)**
-- **Call Volume by Time of Day**
-- **Calls by Topic and Resolution Status**
-- **Daily Call Volume Trends**
-- **Geographic Distribution of Complaints**
+## 📊 Dataset  
+- Call center operations dataset  
+- Includes call volume, resolution status, duration, topics, and time-based metrics  
+- ~[Add Approx Record Count] records  
 
 ---
 
-## 🛠 Tools & Technologies Used
-- **Power BI** – Data modeling, visualization, and dashboard design  
-- **DAX (Data Analysis Expressions)** – Custom measures and KPIs  
-- **Excel / CSV** – Data preparation and preprocessing  
-- **GitHub** – Version control and portfolio hosting  
+## 📈 Key KPIs  
+- Total Calls Handled: 5,000  
+- Answered Calls: 4,054  
+- Abandoned Calls: 946  
+- Average Call Duration: 3.55 minutes  
+- Average Speed of Answer: 67.52 seconds  
+- Customer Satisfaction Score: 3.40 / 5  
 
 ---
 
-## 🎯 Dashboard Use Cases
-- Call center operations monitoring  
-- Customer experience analysis  
-- Workforce planning and staffing optimization  
-- Identifying high-volume complaint categories  
-- Improving response time and resolution efficiency  
+## 🔍 Key Insights  
+
+- A high number of abandoned calls indicates inefficiencies in handling peak-time demand  
+- Average speed of answer (~67 seconds) suggests delays impacting customer experience  
+- Call volume is significantly higher during specific times of the day, indicating uneven workload distribution  
+- Certain call topics contribute more to unresolved queries, highlighting training or process gaps  
+- Customer satisfaction scores are moderate, indicating room for improvement in service quality  
 
 ---
 
-## 🧠 Learning Outcomes
-Through this project, I strengthened my skills in:
-- Designing business-focused dashboards  
-- Creating operational KPIs using DAX  
-- Translating raw support data into actionable insights  
-- Applying clean UI/UX principles for executive reporting  
-- Storytelling with data for service performance analysis  
+## 💡 Business Recommendations  
+
+- Optimize staffing during peak hours to reduce abandoned calls  
+- Improve response time by enhancing call routing and queue management  
+- Provide targeted training for high-frequency issue categories  
+- Implement performance monitoring for agents to improve efficiency  
+- Introduce proactive support strategies to reduce call volume  
 
 ---
 
-## 📁 Repository Contents
-- `Customer_Complaint_Dashboard.pbix` – Power BI dashboard file  
-- `customer_support_tickets.csv` – Source dataset  
-- `README.md` – Project documentation  
+## 🛠 Tools & Technologies  
+- Power BI – Dashboard development  
+- DAX – KPI calculations and measures  
+- SQL / Excel – Data preparation  
 
 ---
 
-## ⭐ Feedback & Collaboration
-If you found this project useful or insightful:
-- Consider giving it a ⭐ on GitHub  
-- Share feedback or suggestions for improvement  
-- Feel free to connect for discussions on data analytics and business intelligence  
+## 📊 Dashboard Features  
+- Call Volume Tracking  
+- Answered vs Abandoned Calls  
+- Speed of Answer & Call Duration Analysis  
+- Call Distribution by Time of Day  
+- Topic-wise Resolution Analysis  
+- Customer Satisfaction Monitoring  
 
 ---
 
-## 🏷 Tags
-#PowerBI #BusinessAnalytics #CustomerSupport #CallCenterAnalytics  
-#DataVisualization #DAX #OperationalAnalytics
+## 📂 Repository Contents  
+- `Call_Center_Dashboard.pbix` – Power BI dashboard  
+- `Dataset/` – Source data  
+- `README.md` – Documentation  
+
+---
+
+## 🧠 Key Learnings  
+- Built operational dashboards for service performance monitoring  
+- Identified inefficiencies in call center operations  
+- Analyzed customer experience metrics using KPIs  
+- Designed insights-driven dashboards for decision-making  
